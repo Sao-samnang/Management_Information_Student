@@ -28,6 +28,7 @@ namespace Management_Information_Student
         private void btn1_Click(object sender, EventArgs e)
         {
             PictureBoxImg.Image=Properties.Resources.icon3;
+            labelLogtxt1.Text = "MIS Provide Power Full";
             labelLogtxt2.Text = "F  a  s  t  e  r  E  a  s  y  Use🔥";
             
         }
@@ -36,6 +37,7 @@ namespace Management_Information_Student
         {
            
             PictureBoxImg.Image = Properties.Resources.icon2;
+            labelLogtxt1.Text = "MIS Provide Power Full";
             labelLogtxt2.Text = "All Information On Your Hand🔥";
             
         }
@@ -44,7 +46,7 @@ namespace Management_Information_Student
         {
             PictureBoxImg.Image = Properties.Resources.icon4;
             labelLogtxt1.Text = "W    e    l    c    o    m    e";
-            labelLogtxt2.Text = "t    o  M  I  S   s  y  s  t  e  m🔥";
+            labelLogtxt2.Text = "t    o    M  I  S   s  y  s  t  e  m🔥";
             
         }
     }
