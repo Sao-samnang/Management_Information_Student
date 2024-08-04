@@ -22,7 +22,7 @@ namespace Management_Information_Student
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello my name tester!");
+            MessageBox.Show("Hello my name");
         }
 
         private void btn1_Click(object sender, EventArgs e)
