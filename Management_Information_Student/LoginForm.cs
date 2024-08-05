@@ -7,17 +7,22 @@ using System.IO;
 using System.Linq;
 using System.Resources;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Timers;
+
 
 namespace Management_Information_Student
 {
     
     public partial class LoginForm : Form
     {
+        
         public LoginForm()
         {
             InitializeComponent();
+            
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -48,6 +53,29 @@ namespace Management_Information_Student
             labelLogtxt1.Text = "W    e    l    c    o    m    e";
             labelLogtxt2.Text = "t    o    M  I  S   s  y  s  t  e  m🔥";
             
+        }
+        
+        
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void picPass_Click(object sender, EventArgs e)
+        {
+
+            
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            if( imgPass.Checked == true)
+            {
+                txtpass.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtpass.UseSystemPasswordChar = true;
+            }
         }
     }
 }
