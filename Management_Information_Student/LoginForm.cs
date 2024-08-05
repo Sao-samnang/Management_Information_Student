@@ -76,5 +76,10 @@ namespace Management_Information_Student
 
             isPasswordHidden = !isPasswordHidden; // Flip the flag
         }
+
+        private void PictureBoxImg_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -206,6 +206,7 @@
             this.PictureBoxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBoxImg.TabIndex = 1;
             this.PictureBoxImg.TabStop = false;
+            this.PictureBoxImg.Click += new System.EventHandler(this.PictureBoxImg_Click);
             // 
             // txtPassword
             // 
