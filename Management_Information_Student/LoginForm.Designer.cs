@@ -37,12 +37,12 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.labelRepuies = new System.Windows.Forms.Label();
-            this.txtpass = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
             this.PictureBoxImg = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            this.picPass = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxImg)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPass)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLogin
@@ -166,34 +166,6 @@
             this.labelRepuies.TabIndex = 12;
             this.labelRepuies.Text = "Don\'t have account? Please requies to create.";
             // 
-            // txtpass
-            // 
-            this.txtpass.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtpass.Animated = true;
-            this.txtpass.BorderRadius = 5;
-            this.txtpass.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtpass.DefaultText = "";
-            this.txtpass.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtpass.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtpass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtpass.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtpass.FillColor = System.Drawing.Color.Azure;
-            this.txtpass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtpass.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpass.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.txtpass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtpass.IconRightOffset = new System.Drawing.Point(2, -1);
-            this.txtpass.IconRightSize = new System.Drawing.Size(25, 25);
-            this.txtpass.Location = new System.Drawing.Point(417, 178);
-            this.txtpass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtpass.Name = "txtpass";
-            this.txtpass.PasswordChar = '●';
-            this.txtpass.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.txtpass.PlaceholderText = "Password";
-            this.txtpass.SelectedText = "";
-            this.txtpass.Size = new System.Drawing.Size(370, 42);
-            this.txtpass.TabIndex = 10;
-            // 
             // txtEmail
             // 
             this.txtEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -235,17 +207,45 @@
             this.PictureBoxImg.TabIndex = 1;
             this.PictureBoxImg.TabStop = false;
             // 
-            // pictureBox1
+            // txtPassword
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Management_Information_Student.Properties.Resources.Password;
-            this.pictureBox1.Location = new System.Drawing.Point(752, 183);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtPassword.Animated = true;
+            this.txtPassword.BorderRadius = 5;
+            this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPassword.DefaultText = "";
+            this.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPassword.FillColor = System.Drawing.Color.Azure;
+            this.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPassword.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.txtPassword.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPassword.Location = new System.Drawing.Point(417, 178);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.txtPassword.PasswordChar = '\0';
+            this.txtPassword.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtPassword.PlaceholderText = "Password";
+            this.txtPassword.SelectedText = "";
+            this.txtPassword.Size = new System.Drawing.Size(370, 40);
+            this.txtPassword.TabIndex = 13;
+            // 
+            // picPass
+            // 
+            this.picPass.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.picPass.Image = global::Management_Information_Student.Properties.Resources.Password;
+            this.picPass.ImageRotate = 0F;
+            this.picPass.Location = new System.Drawing.Point(752, 182);
+            this.picPass.Name = "picPass";
+            this.picPass.Size = new System.Drawing.Size(30, 30);
+            this.picPass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPass.TabIndex = 14;
+            this.picPass.TabStop = false;
+            this.picPass.Click += new System.EventHandler(this.picPass_Click);
             // 
             // LoginForm
             // 
@@ -253,9 +253,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(866, 446);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picPass);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.labelRepuies);
-            this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2Button3);
@@ -272,7 +272,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxImg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPass)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,9 +289,9 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox txtEmail;
-        private Guna.UI2.WinForms.Guna2TextBox txtpass;
         private System.Windows.Forms.Label labelRepuies;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txtPassword;
+        private Guna.UI2.WinForms.Guna2PictureBox picPass;
     }
 }
 

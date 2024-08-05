@@ -22,13 +22,13 @@ namespace Management_Information_Student
         public LoginForm()
         {
             InitializeComponent();
-            txtpass.UseSystemPasswordChar = true;
-            pictureBox1.Click += pictureBox1_Click;
+            txtPassword.UseSystemPasswordChar= true;
+            //picPass.Click += picPass_Click;
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello my name is KSS");
+            
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -59,16 +59,19 @@ namespace Management_Information_Student
         
         private void LoginForm_Load(object sender, EventArgs e)
         {
+
         }
-        private void pictureBox1_Click(object sender, EventArgs e)
+
+        private void picPass_Click(object sender, EventArgs e)
         {
+      
             if (isPasswordHidden)
             {
-                txtpass.UseSystemPasswordChar = false; // Show text
+                txtPassword.UseSystemPasswordChar = false; // Show text
             }
             else
             {
-                txtpass.UseSystemPasswordChar = true; // Hide text (show as password)
+                txtPassword.UseSystemPasswordChar = true; // Hide text (show as password)
             }
 
             isPasswordHidden = !isPasswordHidden; // Flip the flag
