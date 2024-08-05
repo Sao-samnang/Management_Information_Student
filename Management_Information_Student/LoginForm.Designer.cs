@@ -162,9 +162,9 @@
             this.labelRepuies.ForeColor = System.Drawing.Color.RoyalBlue;
             this.labelRepuies.Location = new System.Drawing.Point(425, 286);
             this.labelRepuies.Name = "labelRepuies";
-            this.labelRepuies.Size = new System.Drawing.Size(352, 20);
+            this.labelRepuies.Size = new System.Drawing.Size(354, 20);
             this.labelRepuies.TabIndex = 12;
-            this.labelRepuies.Text = "Don\'t have account? Please requies to create.";
+            this.labelRepuies.Text = "Don\'t have account? Please request to create.";
             // 
             // txtEmail
             // 
