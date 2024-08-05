@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.labelLogtxt1 = new System.Windows.Forms.Label();
             this.labelLogtxt2 = new System.Windows.Forms.Label();
@@ -39,8 +40,9 @@
             this.txtpass = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
             this.PictureBoxImg = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.imgPass = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLogin
@@ -191,7 +193,6 @@
             this.txtpass.SelectedText = "";
             this.txtpass.Size = new System.Drawing.Size(370, 42);
             this.txtpass.TabIndex = 10;
-            this.txtpass.UseSystemPasswordChar = true;
             // 
             // txtEmail
             // 
@@ -234,22 +235,17 @@
             this.PictureBoxImg.TabIndex = 1;
             this.PictureBoxImg.TabStop = false;
             // 
-            // imgPass
+            // pictureBox1
             // 
-            this.imgPass.BackColor = System.Drawing.Color.Transparent;
-            this.imgPass.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.imgPass.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.imgPass.Image = global::Management_Information_Student.Properties.Resources.Password;
-            this.imgPass.ImageOffset = new System.Drawing.Point(0, 0);
-            this.imgPass.ImageRotate = 0F;
-            this.imgPass.ImageSize = new System.Drawing.Size(30, 30);
-            this.imgPass.Location = new System.Drawing.Point(752, 183);
-            this.imgPass.Name = "imgPass";
-            this.imgPass.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.imgPass.Size = new System.Drawing.Size(30, 30);
-            this.imgPass.TabIndex = 13;
-            this.imgPass.UseTransparentBackground = true;
-            this.imgPass.Click += new System.EventHandler(this.guna2ImageButton1_Click);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Management_Information_Student.Properties.Resources.Password;
+            this.pictureBox1.Location = new System.Drawing.Point(752, 183);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // LoginForm
             // 
@@ -257,7 +253,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(866, 446);
-            this.Controls.Add(this.imgPass);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelRepuies);
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtEmail);
@@ -270,11 +266,13 @@
             this.Controls.Add(this.PictureBoxImg);
             this.Controls.Add(this.btnLogin);
             this.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,7 +291,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txtEmail;
         private Guna.UI2.WinForms.Guna2TextBox txtpass;
         private System.Windows.Forms.Label labelRepuies;
-        private Guna.UI2.WinForms.Guna2ImageButton imgPass;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
