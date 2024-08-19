@@ -28,7 +28,8 @@ namespace Management_Information_Student
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("Heloo");
+            Console.WriteLine("Hello");
         }
 
         private void btn1_Click(object sender, EventArgs e)
