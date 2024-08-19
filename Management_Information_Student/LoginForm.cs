@@ -30,7 +30,7 @@ namespace Management_Information_Student
         {
             if(txtEmail.Text=="Vy_6" && txtPassword.Text == "629")
             {
-                MessageBox.Show("Hello Kon Papa");
+                MessageBox.Show("Vy Seth sl bros");
             }
             else
             {
