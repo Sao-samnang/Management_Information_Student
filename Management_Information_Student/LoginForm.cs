@@ -28,7 +28,14 @@ namespace Management_Information_Student
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Heloo");
+            if(txtEmail.Text=="Vy_6" && txtPassword.Text == "629")
+            {
+                MessageBox.Show("Hello Kon Papa");
+            }
+            else
+            {
+                MessageBox.Show("Login Faile");
+            }
         }
 
         private void btn1_Click(object sender, EventArgs e)
