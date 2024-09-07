@@ -63,9 +63,49 @@ namespace Management_Information_Student.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3d_casual_life_young_man_surrounded_by_gadgets_writing_notes {
+            get {
+                object obj = ResourceManager.GetObject("3d-casual-life-young-man-surrounded-by-gadgets-writing-notes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap About {
+            get {
+                object obj = ResourceManager.GetObject("About", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Admin_Settings_Male {
+            get {
+                object obj = ResourceManager.GetObject("Admin Settings Male", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Email {
             get {
                 object obj = ResourceManager.GetObject("Email", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Home {
+            get {
+                object obj = ResourceManager.GetObject("Home", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +153,59 @@ namespace Management_Information_Student.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_student_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-student-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_teacher_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-teacher-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logout_Rounded {
+            get {
+                object obj = ResourceManager.GetObject("Logout Rounded", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Password {
             get {
                 object obj = ResourceManager.GetObject("Password", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Settings {
+            get {
+                object obj = ResourceManager.GetObject("Settings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Signing_A_Document {
+            get {
+                object obj = ResourceManager.GetObject("Signing A Document", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

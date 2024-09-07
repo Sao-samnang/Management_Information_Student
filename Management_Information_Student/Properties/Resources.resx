@@ -121,25 +121,52 @@
   <data name="undraw_Celebration_re_kc9k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\undraw_Celebration_re_kc9k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="About" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\About.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-teacher-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-teacher-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3d-casual-life-young-man-surrounded-by-gadgets-writing-notes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3d-casual-life-young-man-surrounded-by-gadgets-writing-notes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Student Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Student Male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Signing A Document" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Signing A Document.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Email" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Student Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Student Male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-student-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-student-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin Settings Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin Settings Male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logout Rounded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logout Rounded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -54,7 +54,7 @@
             this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Location = new System.Drawing.Point(417, 238);
             this.btnLogin.Name = "btnLogin";
@@ -225,7 +225,7 @@
             this.txtPassword.ForeColor = System.Drawing.Color.DodgerBlue;
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.Location = new System.Drawing.Point(417, 178);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
             this.txtPassword.PasswordChar = '\0';
