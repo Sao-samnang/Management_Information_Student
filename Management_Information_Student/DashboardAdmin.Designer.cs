@@ -39,6 +39,7 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -49,6 +50,7 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel1.Controls.Add(this.guna2Button7);
             this.panel1.Controls.Add(this.guna2Button6);
             this.panel1.Controls.Add(this.guna2Button5);
             this.panel1.Controls.Add(this.guna2Button4);
@@ -137,7 +139,7 @@
             this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 10.8F);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
             this.guna2Button5.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.Image = global::Management_Information_Student.Properties.Resources.Settings;
+            this.guna2Button5.Image = global::Management_Information_Student.Properties.Resources.About;
             this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button5.ImageSize = new System.Drawing.Size(35, 35);
             this.guna2Button5.Location = new System.Drawing.Point(0, 386);
@@ -146,7 +148,7 @@
             this.guna2Button5.PressedColor = System.Drawing.Color.Gold;
             this.guna2Button5.Size = new System.Drawing.Size(225, 45);
             this.guna2Button5.TabIndex = 5;
-            this.guna2Button5.Text = "Setting";
+            this.guna2Button5.Text = "About";
             // 
             // guna2Button4
             // 
@@ -168,7 +170,7 @@
             this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 10.8F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
             this.guna2Button4.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Image = global::Management_Information_Student.Properties.Resources.About;
+            this.guna2Button4.Image = global::Management_Information_Student.Properties.Resources.icons8_student_100;
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.ImageSize = new System.Drawing.Size(35, 35);
             this.guna2Button4.Location = new System.Drawing.Point(0, 341);
@@ -177,7 +179,7 @@
             this.guna2Button4.PressedColor = System.Drawing.Color.Gold;
             this.guna2Button4.Size = new System.Drawing.Size(225, 45);
             this.guna2Button4.TabIndex = 4;
-            this.guna2Button4.Text = "About";
+            this.guna2Button4.Text = "Students";
             // 
             // guna2Button3
             // 
@@ -199,7 +201,7 @@
             this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 10.8F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Image = global::Management_Information_Student.Properties.Resources.icons8_student_100;
+            this.guna2Button3.Image = global::Management_Information_Student.Properties.Resources.icons8_teacher_100;
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.ImageSize = new System.Drawing.Size(35, 35);
             this.guna2Button3.Location = new System.Drawing.Point(0, 296);
@@ -208,7 +210,7 @@
             this.guna2Button3.PressedColor = System.Drawing.Color.Gold;
             this.guna2Button3.Size = new System.Drawing.Size(225, 45);
             this.guna2Button3.TabIndex = 3;
-            this.guna2Button3.Text = "Student";
+            this.guna2Button3.Text = "Teachers";
             // 
             // guna2Button2
             // 
@@ -230,7 +232,7 @@
             this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 10.8F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Image = global::Management_Information_Student.Properties.Resources.icons8_teacher_100;
+            this.guna2Button2.Image = global::Management_Information_Student.Properties.Resources.Signing_A_Document;
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button2.ImageSize = new System.Drawing.Size(35, 35);
             this.guna2Button2.Location = new System.Drawing.Point(0, 251);
@@ -239,7 +241,7 @@
             this.guna2Button2.PressedColor = System.Drawing.Color.Gold;
             this.guna2Button2.Size = new System.Drawing.Size(225, 45);
             this.guna2Button2.TabIndex = 2;
-            this.guna2Button2.Text = "Teacher";
+            this.guna2Button2.Text = "Enrol";
             // 
             // guna2Button1
             // 
@@ -288,6 +290,38 @@
             this.guna2CirclePictureBox1.TabStop = false;
             this.guna2CirclePictureBox1.UseTransparentBackground = true;
             // 
+            // guna2Button7
+            // 
+            this.guna2Button7.Animated = true;
+            this.guna2Button7.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2Button7.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.CheckedState.CustomBorderColor = System.Drawing.Color.Coral;
+            this.guna2Button7.CheckedState.FillColor = System.Drawing.SystemColors.Highlight;
+            this.guna2Button7.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button7.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.CustomBorderThickness = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Button7.FillColor = System.Drawing.Color.DodgerBlue;
+            this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.guna2Button7.ForeColor = System.Drawing.Color.White;
+            this.guna2Button7.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.Image = global::Management_Information_Student.Properties.Resources.Settings;
+            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button7.ImageSize = new System.Drawing.Size(35, 35);
+            this.guna2Button7.Location = new System.Drawing.Point(0, 431);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(0);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.PressedColor = System.Drawing.Color.Gold;
+            this.guna2Button7.Size = new System.Drawing.Size(225, 45);
+            this.guna2Button7.TabIndex = 2;
+            this.guna2Button7.Text = "Setting";
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
+            // 
             // DashboardAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -321,5 +355,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private Guna.UI2.WinForms.Guna2Button guna2Button7;
     }
 }
