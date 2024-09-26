@@ -30,16 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardAdmin));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lblUsername = new System.Windows.Forms.Label();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lblUsername = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.PanelShowMenu = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -65,28 +66,40 @@
             this.panel1.Size = new System.Drawing.Size(225, 719);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // guna2Button7
             // 
-            this.panel2.Controls.Add(this.lblUsername);
-            this.panel2.Controls.Add(this.guna2CirclePictureBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0);
-            this.panel2.Name = "panel2";
-            this.panel2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.panel2.Size = new System.Drawing.Size(225, 206);
-            this.panel2.TabIndex = 0;
-            // 
-            // lblUsername
-            // 
-            this.lblUsername.AutoSize = true;
-            this.lblUsername.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.ForeColor = System.Drawing.Color.Ivory;
-            this.lblUsername.Location = new System.Drawing.Point(71, 160);
-            this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(91, 19);
-            this.lblUsername.TabIndex = 1;
-            this.lblUsername.Text = "Username";
+            this.guna2Button7.Animated = true;
+            this.guna2Button7.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2Button7.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.CheckedState.CustomBorderColor = System.Drawing.Color.Coral;
+            this.guna2Button7.CheckedState.FillColor = System.Drawing.SystemColors.Highlight;
+            this.guna2Button7.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button7.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.CustomBorderThickness = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Button7.FillColor = System.Drawing.Color.DodgerBlue;
+            this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.guna2Button7.ForeColor = System.Drawing.Color.White;
+            this.guna2Button7.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.Image = global::Management_Information_Student.Properties.Resources.Settings;
+            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button7.ImageOffset = new System.Drawing.Point(20, 0);
+            this.guna2Button7.ImageSize = new System.Drawing.Size(35, 35);
+            this.guna2Button7.Location = new System.Drawing.Point(0, 431);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(0);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.guna2Button7.PressedColor = System.Drawing.Color.Gold;
+            this.guna2Button7.Size = new System.Drawing.Size(225, 45);
+            this.guna2Button7.TabIndex = 2;
+            this.guna2Button7.Text = "Setting";
+            this.guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // guna2Button6
             // 
@@ -254,6 +267,7 @@
             this.guna2Button2.TabIndex = 2;
             this.guna2Button2.Text = "Enrol";
             this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -290,6 +304,29 @@
             this.guna2Button1.Text = "Home";
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.lblUsername);
+            this.panel2.Controls.Add(this.guna2CirclePictureBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Name = "panel2";
+            this.panel2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.panel2.Size = new System.Drawing.Size(225, 206);
+            this.panel2.TabIndex = 0;
+            // 
+            // lblUsername
+            // 
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.ForeColor = System.Drawing.Color.Ivory;
+            this.lblUsername.Location = new System.Drawing.Point(71, 160);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(91, 19);
+            this.lblUsername.TabIndex = 1;
+            this.lblUsername.Text = "Username";
+            // 
             // guna2CirclePictureBox1
             // 
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -305,40 +342,15 @@
             this.guna2CirclePictureBox1.TabStop = false;
             this.guna2CirclePictureBox1.UseTransparentBackground = true;
             // 
-            // guna2Button7
+            // PanelShowMenu
             // 
-            this.guna2Button7.Animated = true;
-            this.guna2Button7.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button7.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.CheckedState.CustomBorderColor = System.Drawing.Color.Coral;
-            this.guna2Button7.CheckedState.FillColor = System.Drawing.SystemColors.Highlight;
-            this.guna2Button7.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.CustomBorderThickness = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button7.FillColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.Image = global::Management_Information_Student.Properties.Resources.Settings;
-            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button7.ImageOffset = new System.Drawing.Point(20, 0);
-            this.guna2Button7.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button7.Location = new System.Drawing.Point(0, 431);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.guna2Button7.PressedColor = System.Drawing.Color.Gold;
-            this.guna2Button7.Size = new System.Drawing.Size(225, 45);
-            this.guna2Button7.TabIndex = 2;
-            this.guna2Button7.Text = "Setting";
-            this.guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
+            this.PanelShowMenu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PanelShowMenu.Location = new System.Drawing.Point(224, -1);
+            this.PanelShowMenu.Name = "PanelShowMenu";
+            this.PanelShowMenu.Size = new System.Drawing.Size(1180, 719);
+            this.PanelShowMenu.TabIndex = 1;
+            this.PanelShowMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelShowMenu_Paint);
             // 
             // DashboardAdmin
             // 
@@ -346,6 +358,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(1406, 718);
+            this.Controls.Add(this.PanelShowMenu);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -374,5 +387,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private System.Windows.Forms.Panel PanelShowMenu;
     }
 }

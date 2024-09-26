@@ -89,6 +89,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserCon\EnrolBasicInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCon\EnrolBasicInfo.Designer.cs">
+      <DependentUpon>EnrolBasicInfo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DashboardAdmin.resx">
       <DependentUpon>DashboardAdmin.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,6 +111,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserCon\EnrolBasicInfo.resx">
+      <DependentUpon>EnrolBasicInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

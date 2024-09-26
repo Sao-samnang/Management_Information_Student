@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Management_Information_Student.UserCon;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,24 @@ namespace Management_Information_Student
         private void guna2Button7_Click(object sender, EventArgs e)
         {
 
+        }
+        //call user form
+        private void CallUerFm(UserControl UC)
+        {
+            PanelShowMenu.Controls.Clear();
+            PanelShowMenu.Controls.Add(UC);
+            UC.Dock = DockStyle.Fill;
+            UC.Visible = true;
+            UC.BringToFront();
+        }
+        private void PanelShowMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            CallUerFm(new EnrolBasicInfo());
         }
     }
 }
